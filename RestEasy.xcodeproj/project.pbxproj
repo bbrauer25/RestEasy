@@ -14,6 +14,9 @@
 		85A8557E1DE2B7B90032F74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A8557D1DE2B7B90032F74C /* Assets.xcassets */; };
 		85A855811DE2B7B90032F74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A8557F1DE2B7B90032F74C /* LaunchScreen.storyboard */; };
 		85A8558C1DE2B7BA0032F74C /* RestEasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8558B1DE2B7BA0032F74C /* RestEasyTests.swift */; };
+		85A855971DE2B9800032F74C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A855961DE2B9800032F74C /* Quote.swift */; };
+		85A855991DE2BDFD0032F74C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A855981DE2BDFD0032F74C /* SwiftyJSON.swift */; };
+		85A8559B1DE2C3F60032F74C /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8559A1DE2C3F60032F74C /* QuoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		85A855871DE2B7BA0032F74C /* RestEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A8558B1DE2B7BA0032F74C /* RestEasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestEasyTests.swift; sourceTree = "<group>"; };
 		85A8558D1DE2B7BA0032F74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A855961DE2B9800032F74C /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		85A855981DE2BDFD0032F74C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		85A8559A1DE2C3F60032F74C /* QuoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		85A855721DE2B7B90032F74C /* RestEasy */ = {
 			isa = PBXGroup;
 			children = (
+				85A855981DE2BDFD0032F74C /* SwiftyJSON.swift */,
 				85A855731DE2B7B90032F74C /* AppDelegate.swift */,
 				85A855751DE2B7B90032F74C /* ViewController.swift */,
 				85A855771DE2B7B90032F74C /* Main.storyboard */,
@@ -86,6 +93,8 @@
 				85A8557F1DE2B7B90032F74C /* LaunchScreen.storyboard */,
 				85A855821DE2B7BA0032F74C /* Info.plist */,
 				85A8557A1DE2B7B90032F74C /* RestEasy.xcdatamodeld */,
+				85A855961DE2B9800032F74C /* Quote.swift */,
+				85A8559A1DE2C3F60032F74C /* QuoteModel.swift */,
 			);
 			path = RestEasy;
 			sourceTree = "<group>";
@@ -200,8 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A8559B1DE2C3F60032F74C /* QuoteModel.swift in Sources */,
+				85A855971DE2B9800032F74C /* Quote.swift in Sources */,
 				85A8557C1DE2B7B90032F74C /* RestEasy.xcdatamodeld in Sources */,
 				85A855761DE2B7B90032F74C /* ViewController.swift in Sources */,
+				85A855991DE2BDFD0032F74C /* SwiftyJSON.swift in Sources */,
 				85A855741DE2B7B90032F74C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
